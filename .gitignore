@@ -1,0 +1,20 @@
+# Build artifacts
+*/build
+build/
+*.nds
+*.elf
+*.o
+*.d
+*.map
+*.cia
+arm9/include/version.h
+
+# Local backups / personal variants (do NOT publish)
+*.bak
+*_personal.nds
+subbg_collage*
+
+# macOS
+.DS_Store
+._*
+.vscode
